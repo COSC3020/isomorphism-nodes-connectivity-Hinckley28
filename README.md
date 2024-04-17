@@ -13,9 +13,14 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 If graph $A$ and graph $B$ are completely connected and have the same amount of nodes, we could look at an example like this:\
 To have the same amount of nodes, graphs must look like this: graph $A = (1, 2, 3)$ and graph $B = (a, b, c)$.\
+The 2 graphs can have any number of nodes, but following the guidelines of the proof, they must have the same number of nodes.\
 For the graph's to be completely connected they must have edges for $A$ be $(1, 2), (2, 3), (3, 1)$ and for $B$ be $(a, b), (b, c), (c, a)$, where all nodes are connected to eachother.\
 If we have a bijection $f: V_1 \rightarrow V_2$, then we can map all of the nodes in graph $A$ to the nodes in graph $B$.\
 $f(1) = a, f(2) = b, f(3) = c$.\
 Similarly, we can map all of the edges in graph $A$ to the edges in graph $B$.\
 $f(1,2) = (a, b), f(2, 3) = (b, c), f(3, 1) = (c, a)$.\ 
 Because of the bijection for edges and nodes in graphs $A$ and $B$, these graphs are by definition isomorphic. 
+For all graphs following the rules of having the same number of nodes and being completely connected, there must be an equal number of nodes in each graph.\
+There must also be an equal number of edges in each graph, where every possible edge exists. This is because all of the nodes must be connected to each other to be completely connected.\
+This means the graphs must also be isomorphic because both graphs have the same amount of nodes, where each node in one graph can map to exactly one node in the other graph while\
+for every edge $(u,v) \in E_1$ there is a mapping for each edge $(f(u), f(v)) \in E_2$.
