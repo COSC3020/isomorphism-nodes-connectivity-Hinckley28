@@ -21,6 +21,7 @@ Similarly, we can map all of the edges in graph $A$ to the edges in graph $B$.\
 $f(1,2) = (a, b), f(2, 3) = (b, c), f(3, 1) = (c, a)$.\ 
 Because of the bijection for edges and nodes in graphs $A$ and $B$, these graphs are by definition isomorphic. 
 For all graphs following the rules of having the same number of nodes and being completely connected, there must be an equal number of nodes in each graph.\
-There must also be an equal number of edges in each graph, where every possible edge exists. This is because all of the nodes must be connected to each other to be completely connected.\
-This means the graphs must also be isomorphic because both graphs have the same amount of nodes, where each node in one graph can map to exactly one node in the other graph while\
-for every edge $(u,v) \in E_1$ there is a mapping for each edge $(f(u), f(v)) \in E_2$.
+There must also be an equal number of edges in each graph, where every possible edge exists. For a node in one graph to be mapped to a node in the other graph,\
+both nodes must have the same number of edges connected to them. This is called the degree. So in 2 graphs that are completely connected,\
+then every node could be mapped to any one node in the other graph, because all of the nodes have the same degree. This proves that 2 graphs that have the same\
+number of nodes and are completely connected will always be isomorphic.
