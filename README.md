@@ -23,5 +23,5 @@ Because of the bijection for edges and nodes in graphs $A$ and $B$, these graphs
 For all graphs following the rules of having the same number of nodes and being completely connected, there must be an equal number of nodes in each graph.\
 There must also be an equal number of edges in each graph, where every possible edge exists. For a node in one graph to be mapped to a node in the other graph,\
 both nodes must have the same number of edges connected to them. This is called the degree. So in 2 graphs that are completely connected,\
-then every node could be mapped to any one node in the other graph, because all of the nodes have the same degree. This proves that 2 graphs that have the same\
+then every node could be mapped to any one node in the other graph, because all of the nodes have the same degree. Because the graphs have the same number of nodes and every node has the same degree, there exists a bijection such that any node in graph $A$ can be mapped to any node in graph $B$, where every one node in graph $A$ has exactly one mapping to every one node in graph $B$. This proves that 2 graphs that have the same
 number of nodes and are completely connected will always be isomorphic.
